@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".UISettingActivity">
+
+
+    <ImageView
+        android:layout_marginTop="100sp"
+        android:background="@android:color/transparent"
+        android:layout_width="100sp"
+        android:layout_height="100dp"
+        android:src="@drawable/app_icon"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="50sp"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            style="@style/UIlocationName"
+            android:text="DVT Weather App"/>
+
+        <TextView
+            style="@style/UIWeatherType"
+            android:text="Version 1.0"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/dialDevNumber"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="150sp"
+        android:background="@drawable/round_box_10px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20sp">
+        <TextView
+            android:background="@android:color/transparent"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/devCn"/>
+
+        <TextView
+            android:background="@android:color/transparent"
+            android:textColor="#e0e0e0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/devEmail"/>
+
+        <TextView
+            android:background="@android:color/transparent"
+            android:textColor="#e0e0e0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/devNumber"/>
+    </LinearLayout>
+
+
+</LinearLayout>
